@@ -1,13 +1,10 @@
-
 import React from "react";
 
 
-const Home = () => {
+const Cart = () => {
     return (
       <>
-      <p>Home</p>
-
- 
+      <p>Cart</p>
 
       </>
 
@@ -16,8 +13,6 @@ const Home = () => {
   
 }
 
-
-
-export default Home;
+export default Cart;
 
 
