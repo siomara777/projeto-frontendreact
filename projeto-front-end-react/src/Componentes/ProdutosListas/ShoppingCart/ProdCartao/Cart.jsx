@@ -1,12 +1,12 @@
-import React from "react";
+
 
 
 const Cart = () => {
     return (
-      <>
+      <AreaCard>
       <p>Cart</p>
 
-      </>
+      </AreaCard>
 
         
     )
