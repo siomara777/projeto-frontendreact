@@ -13,7 +13,14 @@ export const GlobalStyle = createGlobalStyle`
 
 body {
     font-family: sans-serif;
-    background-color: #7450ec;
+    /* background-color: #a29ce0; */
+
+    /* background-color: #f7f2fa9d; */
+    /* background-color: #f2e7f97d; */
+    background-color: #8e8bb149;
+
+
+
 
 
 }

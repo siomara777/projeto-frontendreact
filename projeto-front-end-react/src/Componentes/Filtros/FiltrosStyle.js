@@ -10,7 +10,7 @@ export const Filtros = styled.div`
         ustify-content: space-around;
         align-items: center;
 
-
+        gap: 55px;
 
 
         background: blaca;

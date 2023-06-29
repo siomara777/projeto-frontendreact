@@ -1,22 +1,27 @@
-// import styled from "styled-components";
+import styled from "styled-components";
 
-// export const AreaFooter = styled.div`
+export const AreaFooter = styled.div`
+
+    background-color: #dbc4dde0;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0  6vw;
   
+    img {
+        /* flex-direction: row; */
+        row-gap: 5vh;
+        /* display: flex; */
+        height: 5vh;
+
+        coluamn-gap: 10vh;
+        
+    }
 
   
-//   display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     width: 100%;
-//     padding: 15px;
-//     flex-direction: column;
+   
+   
 
-//     background: linear-gradient(88.15deg, #23a2a6 16.62%, #1a656e 77.61%);
-//     background: #ff4d;
-  
-
-
-
-    
-
-// `;
+   
+`;
