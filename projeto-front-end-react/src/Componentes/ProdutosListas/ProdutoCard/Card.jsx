@@ -1,14 +1,25 @@
 
 import { AreaCard } from "./CardStyle";
+// import Camisata from "../../../Img/Camiseta 1.webp"
 
-function Card() {
+
+
+
+function Card(props) {
+
+  // console.log( "props no card ", props.img)
+  const {img, nome, valor} = props
+  
   return (
     <AreaCard>
    
-       <h2>ProdutoCard</h2>
-       <p>Nome do Produto:</p>
-       <p>Valor:</p>
-       <input type="text" placeholder="Adicionar ao Carrinho:" id="Filtros" />
+   <img src={img} alt={nome} ></img>
+       
+       <p>{nome}</p>
+       <p>{valor} </p>
+
+       <input type="text" placeholder="Adicionar ao Carrinho:" id="Carrinho" />
+       
     </AreaCard>
   );
 }

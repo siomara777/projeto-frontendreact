@@ -13,6 +13,17 @@ body,
     height: 100%;
 }
 header {
-    background-color: #a8e5ad;
+    background-color: #8e8bb149;
+
+
+    background-color: hwb(192 95% 3%);
+
+
+    background-color: #f2e7f97d;
+
+background-color: #a29ce0;
+
 
 }
+
+

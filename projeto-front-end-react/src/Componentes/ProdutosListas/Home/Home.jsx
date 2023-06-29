@@ -1,9 +1,30 @@
-import { Header } from "../../Header/Header";
+import React from "react";
 import ProdutoCard from "../ProdutoCard/Card";
 import { AreaHome } from "../Home/HomeStyle";
 import Filtros from "../../Filtros/Filtros";
 import Carrinho from "../../Carrinho/Carrinho";
-function App() {
+
+export function Home (props) {
+
+const {camisas} = props
+console.log(camisas)
+
+const rendeLista = camisas.map((produto) => {
+
+
+  return(
+<ProdutoCard 
+        img={produto.img}
+        nome={produto.nome} 
+        valor= {produto.valor} 
+        
+        />
+
+
+  )
+
+
+})
   return (
     <AreaHome>
       <div>
@@ -11,19 +32,17 @@ function App() {
         <Carrinho />
       </div>
       <main>
-        {/* <Header/> */}
-
-        <ProdutoCard />
-        <ProdutoCard />
-        <ProdutoCard />
-        <ProdutoCard />
-        <ProdutoCard />
-        <ProdutoCard />
-        <ProdutoCard />
-        <ProdutoCard />
+        
+{rendeLista}
+        
+        
+        
+        
+        
+        
       </main>
     </AreaHome>
   );
 }
 
-export default App;
+;
